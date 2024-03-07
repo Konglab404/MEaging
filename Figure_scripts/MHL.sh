@@ -1,7 +1,5 @@
 file=$1
 
-seqtk sample -s100 ../Conversion/fqs/${file}_1.fq.gz 0.1 | gzip -1 > ../Conversion/fqs/${file}_1_sub.fq.gz
-seqtk sample -s100 ../Conversion/fqs/${file}_2.fq.gz 0.1 | gzip -1 > ../Conversion/fqs/${file}_2_sub.fq.gz
 bitmapperBS --search ./T2T_CHM13v2.0/hs1.fa --seq1 ../Conversion/fqs/${file}_1_sub.fq.gz --seq2 ../Conversion/fqs/${file}_2_sub.fq.gz -t 6 --bam -o ${file}.bam
 rm ../Conversion/fqs/${file}_1*
 rm ../Conversion/fqs/${file}_2*
