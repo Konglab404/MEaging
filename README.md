@@ -11,3 +11,5 @@ This repository contains:
 
 4. plot scripts to drawing figures in manuscript
 
+
+Relative paper has been published in Aging Cell, [Methylation entropy landscape of Chinese long-lived individuals reveals lower epigenetic noise related to human healthy aging](https://onlinelibrary.wiley.com/doi/10.1111/acel.14163)
